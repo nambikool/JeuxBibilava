@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #e3f2fd;
+}
+
+.kianja{
+    width: 65vmin;
+    height: 70vmin;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: #293447;
+    border-radius: 10px;
+}
+.mombamomba{
+    color: #b8c6cd;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px 27px;
+    display: flex;
+    justify-content: space-between;
+}
+.tokon-tany{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template: repeat(30,1fr)/ repeat(30,1fr);
+    background: #212837;
+}
+
+.tokon-tany .Poma{
+    background: #ff003d;
+    border-radius: 50%;
+}
+
+.tokon-tany .loha{
+    background: #60cbff;
+    border-radius: 4px ;
+}
